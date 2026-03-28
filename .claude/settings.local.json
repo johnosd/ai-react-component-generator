@@ -21,7 +21,8 @@
       "Bash(printf:*)",
       "Bash(cmd.exe /c \"cd \"\"C:\\\\Users\\\\johns\\\\Documents\\\\Projetos\\\\Claude Code Pratice\\\\Cursos\\\\Claude code in action\\\\uigen\"\" && npm audit\")",
       "Bash(tee /tmp/audit_output.txt)",
-      "mcp__playwright"
+      "mcp__playwright",
+      "Bash(git checkout:*)"
     ]
   }
 }
