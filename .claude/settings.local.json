@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(find /c/Users/johns/Documents/Projetos/Claude Code Pratice/Cursos/Claude code in action/uigen -maxdepth 1 -type f -name .*)",
+      "Bash(npm run:*)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(npm --version)",
+      "Bash(dir:*)",
+      "Bash(npx vitest:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(powershell -Command \"cd 'C:\\\\Users\\\\johns\\\\Documents\\\\Projetos\\\\Claude Code Pratice\\\\Cursos\\\\Claude code in action\\\\uigen'; npx vitest run src/components/chat/__tests__/ToolInvocationBadge.test.tsx src/components/chat/__tests__/MessageList.test.tsx 2>&1 | Out-String\")",
+      "Bash(cmd /c \"cd /d \\\\\"C:\\\\Users\\\\johns\\\\Documents\\\\Projetos\\\\Claude Code Pratice\\\\Cursos\\\\Claude code in action\\\\uigen\\\\\" && npx vitest run src/components/chat/__tests__/ToolInvocationBadge.test.tsx 2>&1\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(echo $?)",
+      "Read(//tmp/**)",
+      "Bash(node -e \"const {execSync} = require\\(''child_process''\\); try { const r = execSync\\(''npx vitest run src/lib/__tests__/auth.test.ts'', {encoding:''utf8'', timeout:30000}\\); console.log\\(''STDOUT:'', r\\); } catch\\(e\\) { console.log\\(''STDERR:'', e.stderr\\); console.log\\(''STDOUT:'', e.stdout\\); }\")",
+      "Bash(npm audit:*)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(powershell -Command \"Set-Location 'C:\\\\Users\\\\johns\\\\Documents\\\\Projetos\\\\Claude Code Pratice\\\\Cursos\\\\Claude code in action\\\\uigen'; \\\\$result = npm audit 2>&1; Write-Output \\\\$result\" 2>&1)",
+      "Bash(printf:*)",
+      "Bash(cmd.exe /c \"cd \"\"C:\\\\Users\\\\johns\\\\Documents\\\\Projetos\\\\Claude Code Pratice\\\\Cursos\\\\Claude code in action\\\\uigen\"\" && npm audit\")",
+      "Bash(tee /tmp/audit_output.txt)",
+      "mcp__playwright"
+    ]
+  }
+}
